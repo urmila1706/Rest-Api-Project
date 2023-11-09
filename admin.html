@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">"
+    </head>
+    <body class="container">
+        <h4 style="color:brown;">Admin Page of E Commerce Website</h4> <br>
+        <form action="#" onsubmit="saveToLocalStorage(event)" id="formId">
+            
+          
+          <label for="sellingPrice"> Selling Price :</label>
+          <Input type="number" name="sellingPrice" id="sellingPrice">
+            <label for="productName">Product Name :</label>
+            <Input type="text" name="productName" id="productName">
+              <label for="category">Choose a category :</label>
+              <select name="category" id="category">
+                <option>Electronic Items</option>
+                <option>Food Items</option>
+                <option>Skincare Items</option>
+              </select>
+             <input type="Submit" value="Add Product" id="productId"style="font-weight: bold; color:bisque; background-color:crimson;height: 32px; border-radius: 10px;  border-color:chartreuse"><br> 
+        </form>
+        <h3 style="color: red;">Products</h3>
+        <div id="Prod_div">
+
+        </div>
+                  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+         <script src="project.js"></script>
+         </body>
+         
+     
+     </html>
