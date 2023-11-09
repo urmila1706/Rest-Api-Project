@@ -15,6 +15,7 @@ function saveToLocalStorage(event){
     }).catch((err)=>{
         console.log(err);
     })
+    
     showUserOnScreen(obj);
 }
 window.addEventListener("DOMContentLoaded",()=>{
